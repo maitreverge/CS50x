@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: Way way faster than sort 3 when it comes to already sorted list.
+
+sort2 uses: merge sort
+
+How do you know?: Fastest algorithm regardless of the file.
+
+sort3 uses: selection sort
+
+How do you know?: Slower of all when using sorted50k

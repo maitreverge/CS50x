@@ -1,0 +1,5 @@
+Question 1 : IT's quite difficult to determine the audio aura of songs.db, as it is an average of all Spotify users. Besides, it's quite
+difficult to determine what is energy, valence and danceability of each songs, as each user might find it very different.
+But I guess we can say that this picture the global "mood" of Spotify listeners.
+
+Question 2 : It is not representatitive for the listener as it is an average of all listeners. Most of them might recognize themselves partially. It could be better to inclure more "rational" values such as tempo, key or even duration to make assumptions based on real numbers.

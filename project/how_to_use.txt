@@ -1,0 +1,35 @@
+
+
+HOW TO USE MY CUSTOM PRINTF FUNCTION
+
+Step 1 :
+
+Create a file (example test.c)
+
+Step 2 :
+Include at the top the .h file like this :
+
+---------
+#include "ft_printf.h"
+---------
+
+Step 3 :
+Write a main function, where you call the ft_printf function :
+
+---------
+int main(void)
+{
+    ft_printf("Hello, World!");
+    return 0;
+}
+----------
+
+Step 4 :
+Run 'make re' first at the root of the project.
+Then run :
+gcc    <your_program_name.c>     libftprintf.a
+
+Step 5 :
+Run `./a.out` on your terminal, and voilà !
+
+

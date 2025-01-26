@@ -1,0 +1,66 @@
+/*   Comment   */
+
+/*   Turn the current page bold   */
+.active {
+    font-weight: bold;
+  }
+
+  /*   Loading screen   */
+  #loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 1); /* Fully opaque background */
+  }
+
+  #loading-screen img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  body.loading {
+    overflow: hidden;
+    filter: opacity(0); /* Apply a fully opaque filter */
+  }
+
+
+  /*   Sparkle animation bottom page 2   */
+
+  @keyframes sparkle {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.sparkling-text {
+    animation: sparkle 1.5s infinite;
+}
+
+
+  /*   Green and red bolds   */
+
+  .green-bold {
+    color: green;
+    font-weight: bold;
+  }
+
+  .red-bold {
+    color: red;
+    font-weight: bold;
+  }
+
+
+
+  /*   Comment   */
+
+  /*   Comment   */
+
+  /*   Comment   */
+
+  /*   Comment   */

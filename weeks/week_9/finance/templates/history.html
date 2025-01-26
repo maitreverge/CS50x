@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Transaction History
+{% endblock %}
+
+{% block main %}
+
+    <table>
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Symbol</th>
+                <th>Share</th>
+                <th>Price</th>
+                <th>Total</th>
+                <th>Time of Purchase</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Ne pas confondre la db et le flask -->
+            {% for transaction in transactions %}
+            <tr>
+                <td>{{ transaction.type }}</td>
+                <td>{{ transaction.symbol }}</td>
+                <td>{{ transaction.shares }}</td>
+                <td>${{ transaction.price }}</td>
+                <td>${{ transaction.price * transaction.shares }}</td>
+                <td>{{ transaction.timestamp }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}
